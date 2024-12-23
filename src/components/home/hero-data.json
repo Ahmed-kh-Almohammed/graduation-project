@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_hero_data",
+  "info": {
+    "displayName": "HeroData",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "youtubeLink": {
+      "type": "string",
+      "required": false
+    },
+    "funfactList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.funfact-list"
+    }
+  }
+}

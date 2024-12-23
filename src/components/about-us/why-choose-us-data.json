@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_us_why_choose_us_data",
+  "info": {
+    "displayName": "WhyChooseUsData",
+    "icon": "exit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sideImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "Feature": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.feature"
+    }
+  }
+}

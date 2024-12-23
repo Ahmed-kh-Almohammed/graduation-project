@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_facts",
+  "info": {
+    "displayName": "facts",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "funfactList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.funfacts"
+    }
+  }
+}

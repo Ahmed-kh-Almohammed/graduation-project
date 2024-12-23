@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_social_social_medias",
+  "info": {
+    "displayName": "socialMedia",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

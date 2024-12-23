@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_otherr_sliders",
+  "info": {
+    "displayName": "slider",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

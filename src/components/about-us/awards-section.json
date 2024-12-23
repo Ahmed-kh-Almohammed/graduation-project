@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_awards_sections",
+  "info": {
+    "displayName": "awardsSection",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "awards": {
+      "displayName": "Award",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.award"
+    }
+  }
+}

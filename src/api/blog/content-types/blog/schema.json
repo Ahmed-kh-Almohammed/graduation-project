@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "مدوناتنا",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "paragraph": {
+      "displayName": "paragraph",
+      "type": "component",
+      "repeatable": true,
+      "component": "bloging-tool.paragraph"
+    },
+    "relatedblogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "blogSlug": {
+      "type": "uid",
+      "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "otherr.seo"
+    },
+    "tags": {
+      "type": "customField",
+      "customField": "plugin::tagsinput.tags"
+    },
+    "authors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "otherr.theauthor"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "social.media"
+    }
+  }
+}

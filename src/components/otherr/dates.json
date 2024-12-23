@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_otherr_dates",
+  "info": {
+    "displayName": "dates",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "date"
+    },
+    "TO": {
+      "type": "date"
+    }
+  }
+}

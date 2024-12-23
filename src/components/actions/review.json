@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_actions_reviews",
+  "info": {
+    "displayName": "review",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "text"
+    },
+    "state": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_otherr_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "DocumentTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ogTitle": {
+      "type": "text"
+    },
+    "gImage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "keywords": {
+      "type": "customField",
+      "customField": "plugin::tagsinput.tags"
+    },
+    "ogDescription": {
+      "type": "text"
+    }
+  }
+}

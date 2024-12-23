@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_otherr_plans",
+  "info": {
+    "displayName": "plan",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "period": {
+      "type": "string"
+    },
+    "featureList": {
+      "type": "customField",
+      "customField": "plugin::tagsinput.tags"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "popular": {
+      "type": "boolean"
+    }
+  }
+}

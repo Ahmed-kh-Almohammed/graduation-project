@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_actions_prescriptions",
+  "info": {
+    "displayName": "prescription",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "medicines": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::medicine.medicine"
+    },
+    "state": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

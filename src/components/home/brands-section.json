@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_brands_sections",
+  "info": {
+    "displayName": "brandsSection"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

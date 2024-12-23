@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_actions_sessions",
+  "info": {
+    "displayName": "session",
+    "icon": "cup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Arrivedtime": {
+      "type": "time"
+    },
+    "leavveTime": {
+      "type": "time"
+    },
+    "diagnoses": {
+      "type": "text"
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": true,
+      "component": "actions.review"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

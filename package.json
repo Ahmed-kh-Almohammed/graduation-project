@@ -1,0 +1,43 @@
+{
+  "name": "my-5-gratation-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.1.1",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.12",
+    "@strapi/plugin-cloud": "4.25.2",
+    "@strapi/plugin-documentation": "^4.25.5",
+    "@strapi/plugin-i18n": "4.25.2",
+    "@strapi/plugin-users-permissions": "4.25.2",
+    "@strapi/strapi": "4.25.2",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-populate-deep": "^3.0.1",
+    "strapi-plugin-rich-text": "^1.2.1",
+    "strapi-plugin-tagsinput": "^1.0.6",
+    "strapi-plugin-wysiwyg-react-md-editor": "^4.5.3",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "8b5c8c6b-cac3-4f50-a62f-9cff89ecf904"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

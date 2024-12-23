@@ -1,0 +1,179 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patient_profiles",
+  "info": {
+    "singularName": "patient-profile",
+    "pluralName": "patient-profiles",
+    "displayName": "ملف تعريف المريض",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blodType": {
+      "type": "enumeration",
+      "enum": [
+        "O",
+        "A",
+        "B",
+        "AB"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "nationality": {
+      "type": "enumeration",
+      "enum": [
+        "syrian",
+        "Arabian",
+        "chines",
+        "American"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "familyStatus": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "married",
+        "divorced",
+        "widow"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Smoker": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lifeShort": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "IDFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "ProfilePic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "birthDate": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "phoneNumber": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Email": {
+      "type": "email",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "job": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "allargies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::allargy.allargy"
+    },
+    "diseases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::disease.disease"
+    },
+    "sessions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "actions.session",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "prescription": {
+      "displayName": "prescription",
+      "type": "component",
+      "repeatable": true,
+      "component": "actions.prescription",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Tests": {
+      "displayName": "medicalTest",
+      "type": "component",
+      "repeatable": true,
+      "component": "actions.medical-test",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

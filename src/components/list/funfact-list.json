@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_list_funfact_lists",
+  "info": {
+    "displayName": "funfactList",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

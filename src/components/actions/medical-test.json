@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_actions_medical_tests",
+  "info": {
+    "displayName": "medicalTest",
+    "icon": "seed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "testName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "theresulte": {
+      "type": "text"
+    }
+  }
+}

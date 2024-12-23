@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_insurance_plans",
+  "info": {
+    "displayName": "plans",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plans": {
+      "displayName": "plan",
+      "type": "component",
+      "repeatable": true,
+      "component": "otherr.plan"
+    }
+  }
+}

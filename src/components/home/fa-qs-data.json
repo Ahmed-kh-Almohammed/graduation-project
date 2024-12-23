@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_fa_qs_data",
+  "info": {
+    "displayName": "FAQsData",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

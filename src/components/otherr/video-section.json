@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_otherr_video_sections",
+  "info": {
+    "displayName": "videoSection",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "youtubeVideoID": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

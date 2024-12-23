@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_insurance_hero_sections",
+  "info": {
+    "displayName": " heroSection",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "funfact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.funfact-list"
+    }
+  }
+}

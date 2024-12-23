@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_otherr_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "openTime": {
+      "type": "time"
+    },
+    "closeTime": {
+      "type": "time"
+    }
+  }
+}

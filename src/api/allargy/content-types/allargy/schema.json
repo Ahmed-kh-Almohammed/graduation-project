@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allargies",
+  "info": {
+    "singularName": "allargy",
+    "pluralName": "allargies",
+    "displayName": "الحساسيات",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

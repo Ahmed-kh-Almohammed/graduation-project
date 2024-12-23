@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_testimonial_sections",
+  "info": {
+    "displayName": "testimonialSection",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "testimonials": {
+      "displayName": "TestimonialItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.testimonial-item"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_otherr_authors",
+  "info": {
+    "displayName": "author",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

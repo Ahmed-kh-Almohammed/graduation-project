@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_insurance_faqs_sections",
+  "info": {
+    "displayName": "faqsSection",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sidebarImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
